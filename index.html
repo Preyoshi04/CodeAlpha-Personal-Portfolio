@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars " id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home-->
+
+    <section class="home" id="home">
+        <div class="home-contents">
+            <h3>Hello , I am</h3>
+            <h1>Preyoshi Mondal</h1>
+            <h3>I am a <span>Web Developer</span></h3>
+            <p>Welcome to my portfolio Website.<br>Scroll down to know more about me</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.github.com/"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="images/resume.pdf" download class="btn">Download My Resume</a>
+
+        </div>
+
+        <div class="home-img">
+            <img src="images/about.jpg" alt="My image">
+        </div>
+    </section>
+
+    <!--about-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.jpg" alt="">
+        </div>
+
+        <div class="about-container">
+            <h2 class="heading">About<span>M</span>e</h2>
+            <h3>Web <span>D</span>eveloper</h3>
+            <p>I am currently pursuing Bachelors In Computer Science and Engineering (2nd year) at Future
+                Institute of Engineering and Management.I have a deep interest in Web development domain.I
+                am learning Full stack web development and making projects accordingly.I have worked as a
+                volunteer of techno management club of FIEM, XPLORICA to organize our annual tech fest
+                PHOENIX'23.Now I am the member of graphics team as well as technical team of our techno
+                management club and official activity club of FIEM , Team XPLORICA.</p>
+
+            <a href="#" class="btn">More About</a>
+        </div>
+    </section>
+
+
+    <!--skills-->
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My<span>Skills</span></h2>
+
+        <div class="skill-container">
+            <div class="skill-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>MERN Stack Web Development</h3>
+                <p>Being a web development enthusiast , I am deeply dedicated towards my work. I have learned MERN stack
+                    and implementing it in projects , therefore learning new things everyday.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>Adobe Photoshop</h3>
+                <p>I have a basic knowledg about Adobe Photoshop and am capable of making creative posters. Regarding
+                    that , I am also one member of the graphics team of our technical club of my college.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-regular fa-file-code"></i>
+                <h3>Fundamentals of IT Languages(C,Java,Python)</h3>
+                <p>Being a Computer Science student , I have a basic knowledge about these languages i.e C,Java and
+                    Python.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--projects-->
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest<span>P</span>rojects</h2>
+
+        <div class="project-container">
+            <div class="project-box">
+                <img src="images/clg website.png">
+                <div class="project-layout">
+                    <h4>College <span>W</span>ebsite</h4>
+                    <p>I have made this project on the topic College Website using HTML , CSS , JS , ReactJs, which
+                        includes components like home page , slider image , contact details and faculty details.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/form.png">
+                <div class="project-layout">
+                    <h4>Registration <span>F</span>orm</h4>
+                    <p>I have made this project on Students Registration Form using HTML and CSS , which includes all
+                        the general fields of a form.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/netflix.png">
+                <div class="project-layout">
+                    <h4>Netflix<span>Home</span>Page</h4>
+                    <p>I have implemented this project of making the Netflix homepage using HTML ,CSS , JS ,ReactJs and
+                        adding bootstrap , I made it responsive.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--contact-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email-id" required>
+                <input type="number" placeholder="Enter your mobile number" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="20" placeholder="Any messege for me?"></textarea>
+            <button type="submit" class="btn">Send Messege</button>
+        </form>
+    </section>
+
+    <!--footer-->
+
+    <section class="footer" id="footer">
+        <a href="#home" class="footer-btn">Back To Home</div>
+    </section>
+
+    <!--js-->
+    <script type="javascipt" src="index.js"></script>
+
+</body>
+
+</html>
